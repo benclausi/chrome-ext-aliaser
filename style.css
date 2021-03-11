@@ -1,0 +1,67 @@
+#addLabel {
+  height: auto;
+  width: 100%;
+  outline: none !important;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 2px;
+  background: #3a88d5;
+  margin-bottom: .5rem;
+  color: white;
+  padding: 10px 20px;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.title {
+  font-weight:bold;
+  font-size: 24px;
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+  padding-bottom: .75rem;
+}
+
+body {
+  width: 500px;
+  display: flex;
+  font-family: 'Arial', sans-serif;
+}
+
+.pairRow {
+  width: 100%;
+  display: flex;
+  margin-bottom: 6px;
+}
+
+#new_pair {
+  margin-bottom: 20px;
+}
+
+.savedPairsTitle {
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+.noPairsMessage {
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 1.2rem;
+}
+
+.deleteButton {
+  background: red;
+  outline: none;
+  color: white;
+  border-radius: 3rem;
+  margin-left: auto;
+  margin-right: 0;
+}
